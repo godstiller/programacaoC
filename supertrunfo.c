@@ -19,10 +19,7 @@ int main(){
     float pib_2;
     int numero_ponto_turistico_2;
 
-
-
-
-    // OBTER DADOS DA CIDADE 1
+// OBTER DADOS DA CIDADE 1
     printf("Qual é a letra do 1º estado? \n");
     scanf("%c", &estado_letra_1);
 
@@ -37,7 +34,6 @@ int main(){
     printf("Qual é a população da 1ª cidade? \n");
     scanf("%d", &populacao_1);
 
-
     printf("Qual é a área da 1ª cidade? \n");
     scanf(" %f", &area_km_1);
 
@@ -47,17 +43,13 @@ int main(){
     printf("Quantos pontos turísticos a 1ª cidade possui? \n");
     scanf(" %d", &numero_ponto_turistico_1);
 
-
-
-    //PULAR 1 LINHA
+//PULAR 1 LINHA
     printf("\n");
 
-
-    //MENSAGEM DE CONFIRMAÇÃO 1
+//MENSAGEM DE CONFIRMAÇÃO 1
     printf("Carta 1 cadastrada com sucesso! \n\n");
 
-
-    // OBTER DADOS DA CIDADE 2
+// OBTER DADOS DA CIDADE 2
     printf("Qual é a letra do 2º estado? \n");
     scanf(" %c", &estado_letra_2);
 
@@ -72,7 +64,6 @@ int main(){
     printf("Qual é a população da 2ª cidade? \n");
     scanf("%d", &populacao_2);
 
-
     printf("Qual é a área da 2ª cidade? \n");
     scanf(" %f", &area_km_2);
 
@@ -82,22 +73,14 @@ int main(){
     printf("Quantos pontos turísticos a 2ª cidade possui? \n");
     scanf(" %d", &numero_ponto_turistico_2);
 
-
-
-
-    //PULAR 1 LINHA
+//PULAR 1 LINHA
     printf("\n");
 
+//MENSAGEM DE CONFIRMAÇÃO 2
+    printf("Carta 2 cadastrada com sucesso! \n\n");
 
-    //MENSAGEM DE CONFIRMAÇÃO 2
-    printf("Carta 2 cadastrada com sucesso!");
-
-
-     //PULAR 1 LINHA
-     printf("\n");
-
-
-
+//MENSAGEM DE EXIBIÇÃO DOS DADOS    
+    printf("Dados das cartas cadastradas! \n\n");
 
 // EXIBIR OS DADOS DA CARTA 1
     printf("Carta 1: \n");
@@ -106,7 +89,7 @@ int main(){
     printf("Nome da cidade: %s \n", nome_cidade_1);
     printf("População: %d mil habitantes \n", populacao_1);
     printf("Área: %.3f KM² \n", area_km_1);
-    printf("PIB: %.3fBI \n", pib_1);
+    printf("PIB: %.1fBI \n", pib_1);
     printf("Número de pontos turísticos: %d \n", numero_ponto_turistico_1);
     
 // EXIBIR OS DADOS DA CARTA 2
@@ -119,9 +102,8 @@ int main(){
     printf("Nome da cidade: %s \n", nome_cidade_2);
     printf("População: %d mil habitantes \n", populacao_2);
     printf("Área: %.3f KM² \n", area_km_2);
-    printf("PIB: %.3fBI \n", pib_2);
+    printf("PIB: %.1fBI \n", pib_2);
     printf("Número de pontos turísticos: %d \n", numero_ponto_turistico_2);
-
 
     return 0;
 
