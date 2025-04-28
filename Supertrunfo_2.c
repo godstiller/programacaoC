@@ -91,7 +91,8 @@ int main(){
 
         if (jogador1 == jogador1_2)
         {
-            printf("Você escolheu o mesmo atributo! \n");
+            printf("Você escolheu o mesmo atributo! \n\n");
+            
         } else {
 
         switch (jogador1_2)
@@ -129,7 +130,7 @@ int main(){
             printf("Opção inválida!\n\n");
             break;
         }
-        }
+        
 
         if (resultado1 && resultado1_1)
         {
@@ -140,6 +141,7 @@ int main(){
         } else {
             printf("Derrota! \n");
         }
+        break;
         case 2:
         printf("!!! REGRAS DO JOGO !!!\n\n");
         printf("Os jogadores escolhem um atributo para duelar com o adversário,\n");
@@ -147,14 +149,15 @@ int main(){
         break;
         case 3:
         printf("Sair do jogo? \n");
-        printf("Pressione as teclas ALT + F4 para sair do jogo.\n");
+        printf("Pressione as teclas ALT + F4 para sair do jogo.\n\n");
         break;
     default:
-        printf("Opção inválida.\n");
+        printf("Opção inválida.\n\n");
         break;
     
     }
 
 return 0;
 
+}
 }
